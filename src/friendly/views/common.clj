@@ -7,7 +7,7 @@
               [:head
                [:title "friendly"]
                (include-css "/css/reset.css")
-               (include-js "/main.js")]
+               (include-js "/js/main.js")]
               [:body {:onload "friendly.client.setuser()"}
                [:div#wrapper
                 content]]))
